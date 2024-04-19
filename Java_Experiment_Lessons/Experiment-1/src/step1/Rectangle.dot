@@ -1,0 +1,12 @@
+digraph "Rectangle" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+Rectangle [shape = record, label = "{ Rectangle | + perimeter : double\l + area : double\l|+ main(String[]) : void\l|+ Rectangle(double, double) : \l + Rectangle() : \l }"];
+
+
+}
